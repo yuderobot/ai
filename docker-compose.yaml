@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    container_name: markov-tweet
+    container_name: ai
     build: .
     volumes:
       - ./data:/app/data
